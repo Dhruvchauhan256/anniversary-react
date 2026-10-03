@@ -290,14 +290,27 @@ Forever yours,
     "I knew it! 🥰 I love you, forever and always. ❤",
 
   // ================= GIFT =================
-  gift: {
-    title: "Your surprise 🎁",
+ gift: {
+  title: "Your surprise 🎁",
 
-    text: `Write the real surprise here.
-For example: Dinner tonight at 8 PM at your favourite place.
-Get ready, {nick}! ❤`,
-  },
-};
+  text: `Annu, you thought the website was the surprise... 😌
+
+But there's one more thing waiting for you. ❤️
+
+On our anniversary, I'm taking you on a special date. 🥰
+
+📅 7 October 2026
+📍 It's a secret for now 🤫
+❤️ Dress up, bring your smile, and just come with me.
+
+One year down.
+A lifetime to go.
+
+Happy Anniversary, my love.
+
+Forever yours,
+Dhruv`,
+},
 
 /* ================= HELPERS ================= */
 
