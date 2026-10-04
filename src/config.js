@@ -228,6 +228,73 @@ Write your own honest words here.
     "I will choose us, again and again.",
   ],
 
+  // ================= OUR PROMISES WALL =================
+  promisesWall: {
+    title: "Our Promises to Each Other",
+    subtitle: "The commitments we make to forever",
+    fromYou: [
+      "I promise to love you fiercely and unconditionally.",
+      "I will always make time for you, no matter how busy.",
+      "I promise to support your dreams and celebrate your wins.",
+      "I will be your safe place and your biggest cheerleader.",
+    ],
+    fromHer: [
+      "I promise to cherish every moment with you.",
+      "I will stand by you through thick and thin.",
+      "I promise to keep our love alive with small gestures.",
+      "I will always choose us, forever and beyond.",
+    ],
+  },
+
+  // ================= FUTURE DREAMS =================
+  futureDreams: {
+    title: "Our Dreams Together",
+    subtitle: "What we want to build and experience",
+    dreams: [
+      "🏡 Build a cozy home filled with love and laughter",
+      "✈️ Travel to at least 10 countries together",
+      "👨‍👩‍👧 Start a family when the time is right",
+      "📚 Read all our favorite books to each other",
+      "🌅 Watch sunrises in new places with you",
+      "💑 Grow old together, hand in hand",
+      "🎭 Learn a new skill or hobby together every year",
+      "🌍 Make a positive impact on the world as a team",
+    ],
+  },
+
+  // ================= MESSAGE FROM THE FUTURE =================
+  messageFromFuture: {
+    title: "A Letter to Us, One Year From Now",
+    subtitle: "Open on our 2nd anniversary",
+    text: `Dear {nick} and {you},
+
+One year has passed since you created this love letter to each other.
+
+As you read this, I hope you'll remember:
+- How far you've come together
+- The little moments that matter most
+- The promises you made on this day
+
+Whether life was easy or challenging, know that your love is the foundation.
+
+Keep choosing each other. Keep dancing. Keep dreaming. Keep loving.
+
+Here's to another year of growing together, of small gestures that mean everything, and of a love that keeps getting stronger.
+
+The best is yet to come.
+
+Forever yours,
+Your Future Self ❤️`,
+  },
+
+  // ================= LOVE METER =================
+  loveMeter: {
+    title: "Our Love Meter",
+    subtitle: "How much we love each other",
+    description: "A heartbeat for a lifetime of love",
+    percentage: 100,
+  },
+
   // ================= BUCKET LIST =================
   bucket: [
     "Take our first big trip together",
