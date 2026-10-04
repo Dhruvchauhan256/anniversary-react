@@ -32,7 +32,7 @@ export const CONFIG = {
     {
       date: "07/10/2025",
       title: "The Day We Met",
-      text: "The day we met became the day I knew I’d ask you to be mine forever.",
+      text: "The day we met became the day I knew I'd ask you to be mine forever.",
       img: "/photos/my_favorite.jpeg",
     },
 
@@ -311,16 +311,16 @@ Happy Anniversary, my love.
 Forever yours,
 Dhruv`,
   },
-
-  /* ================= HELPERS ================= */
-
-  export const fill = (s) =>
-    s
-      .replace(/\{her\}/g, CONFIG.herName)
-      .replace(/\{nick\}/g, CONFIG.herNick)
-      .replace(/\{you\}/g, CONFIG.yourName);
-
-  export const bgImg = (src) => ({
-    backgroundImage: `url('${src}'), linear-gradient(135deg,#3a1030,#0b0710)`,
-  });
 };
+
+/* ================= HELPERS ================= */
+
+export const fill = (s) =>
+  s
+    .replace(/\{her\}/g, CONFIG.herName)
+    .replace(/\{nick\}/g, CONFIG.herNick)
+    .replace(/\{you\}/g, CONFIG.yourName);
+
+export const bgImg = (src) => ({
+  backgroundImage: `url('${src}'), linear-gradient(135deg,#3a1030,#0b0710)`,
+});
