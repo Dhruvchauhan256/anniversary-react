@@ -39,7 +39,7 @@ export const CONFIG = {
     {
       date: "First Date",
       title: "Our first date",
-      text: "Where we went and what I felt that day.",
+      text: "The moment I realized you were the one.",
       img: "/photos/our_at_best.jpeg",
     },
 
