@@ -16,6 +16,10 @@ import {
   OpenWhen,
   Coupons,
   YearTwo,
+  PromisesWall,
+  FutureDreams,
+  MessageFromFuture,
+  LoveMeter,
   Quiz,
   ScratchSection,
   Letter,
@@ -101,6 +105,10 @@ function Story() {
       <OpenWhen />
       <Coupons />
       <YearTwo />
+      <PromisesWall />
+      <FutureDreams />
+      <MessageFromFuture />
+      <LoveMeter />
       <Quiz />
       <ScratchSection />
       <Letter />
