@@ -30,9 +30,9 @@ export const CONFIG = {
   // ================= TIMELINE =================
   timeline: [
     {
-      date: "The Beginning",
-      title: "The day we met",
-      text: "Write what you remember about the first time we met.",
+      date: "07/10/2025",
+      title: "The Day We Met",
+      text: "The day we met became the day I knew I’d ask you to be mine forever.",
       img: "/photos/my_favorite.jpeg",
     },
 
@@ -290,10 +290,10 @@ Forever yours,
     "I knew it! 🥰 I love you, forever and always. ❤",
 
   // ================= GIFT =================
- gift: {
-  title: "Your surprise 🎁",
+  gift: {
+    title: "Your surprise 🎁",
 
-  text: `Annu, you thought the website was the surprise... 😌
+    text: `Annu, you thought the website was the surprise... 😌
 
 But there's one more thing waiting for you. ❤️
 
@@ -310,16 +310,17 @@ Happy Anniversary, my love.
 
 Forever yours,
 Dhruv`,
-},
+  },
 
-/* ================= HELPERS ================= */
+  /* ================= HELPERS ================= */
 
-export const fill = (s) =>
-  s
-    .replace(/\{her\}/g, CONFIG.herName)
-    .replace(/\{nick\}/g, CONFIG.herNick)
-    .replace(/\{you\}/g, CONFIG.yourName);
+  export const fill = (s) =>
+    s
+      .replace(/\{her\}/g, CONFIG.herName)
+      .replace(/\{nick\}/g, CONFIG.herNick)
+      .replace(/\{you\}/g, CONFIG.yourName);
 
-export const bgImg = (src) => ({
-  backgroundImage: `url('${src}'), linear-gradient(135deg,#3a1030,#0b0710)`,
-});
+  export const bgImg = (src) => ({
+    backgroundImage: `url('${src}'), linear-gradient(135deg,#3a1030,#0b0710)`,
+  });
+};
