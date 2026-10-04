@@ -53,7 +53,7 @@ export const CONFIG = {
     {
       date: "Our Trip",
       title: "Our first trip",
-      text: "That funny and beautiful memory we made together.",
+      text: "The journey where our hearts learned to travel together.",
       img: "/photos/Together_always.jpeg",
     },
 
